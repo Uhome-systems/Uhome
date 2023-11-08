@@ -1,0 +1,88 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="zigbee_multi_sensor_pca10056" radix="16" sizeText="1" addressText="0x20000de0"/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="zigbee_multi_sensor_pca10056" radix="16" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="zigbee_multi_sensor_pca10056" radix="16" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="zigbee_multi_sensor_pca10056" radix="16" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="zigbee_multi_sensor_pca10056"/>
+  <ProjectSessionItem path="zigbee_multi_sensor_pca10056;zigbee_multi_sensor_pca10056"/>
+  <ProjectSessionItem path="zigbee_multi_sensor_pca10056;zigbee_multi_sensor_pca10056;Application"/>
+  <ProjectSessionItem path="zigbee_multi_sensor_pca10056;zigbee_multi_sensor_pca10056;Board Definition"/>
+  <ProjectSessionItem path="zigbee_multi_sensor_pca10056;zigbee_multi_sensor_pca10056;nano-pb"/>
+  <ProjectSessionItem path="zigbee_multi_sensor_pca10056;zigbee_multi_sensor_pca10056;None"/>
+  <ProjectSessionItem path="zigbee_multi_sensor_pca10056;zigbee_multi_sensor_pca10056;nRF_Zigbee_TWV"/>
+  <ProjectSessionItem path="zigbee_multi_sensor_pca10056;zigbee_multi_sensor_pca10056;Zigbee"/>
+ </Project>
+ <Register1>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal;SAADC/TASKS_START;SAADC/TASKS_SAMPLE;SAADC/TASKS_STOP;SAADC/TASKS_CALIBRATEOFFSET;SAADC/EVENTS_STARTED;SAADC/EVENTS_END;SAADC/EVENTS_DONE;SAADC/EVENTS_RESULTDONE;SAADC/EVENTS_CALIBRATEDONE;SAADC/EVENTS_STOPPED;SAADC/INTEN;SAADC/INTENSET;SAADC/INTENCLR;SAADC/STATUS;SAADC/ENABLE;SAADC/RESOLUTION;SAADC/OVERSAMPLE;SAADC/SAMPLERATE;SAADC/EVENTS_CH[0].LIMITH;SAADC/EVENTS_CH[0].LIMITL;SAADC/EVENTS_CH[1].LIMITH;SAADC/EVENTS_CH[1].LIMITL;SAADC/EVENTS_CH[2].LIMITH;SAADC/EVENTS_CH[2].LIMITL;SAADC/EVENTS_CH[3].LIMITH;SAADC/EVENTS_CH[3].LIMITL;SAADC/EVENTS_CH[4].LIMITH;SAADC/EVENTS_CH[4].LIMITL;SAADC/EVENTS_CH[5].LIMITH;SAADC/EVENTS_CH[5].LIMITL;SAADC/EVENTS_CH[6].LIMITH;SAADC/EVENTS_CH[6].LIMITL;SAADC/EVENTS_CH[7].LIMITH;SAADC/EVENTS_CH[7].LIMITL;SAADC/CH[0].PSELP;SAADC/CH[0].PSELN;SAADC/CH[0].CONFIG;SAADC/CH[0].LIMIT;SAADC/CH[1].PSELP;SAADC/CH[1].PSELN;SAADC/CH[1].CONFIG;SAADC/CH[1].LIMIT;SAADC/CH[2].PSELP;SAADC/CH[2].PSELN;SAADC/CH[2].CONFIG;SAADC/CH[2].LIMIT;SAADC/CH[3].PSELP;SAADC/CH[3].PSELN;SAADC/CH[3].CONFIG;SAADC/CH[3].LIMIT;SAADC/CH[4].PSELP;SAADC/CH[4].PSELN;SAADC/CH[4].CONFIG;SAADC/CH[4].LIMIT;SAADC/CH[5].PSELP;SAADC/CH[5].PSELN;SAADC/CH[5].CONFIG;SAADC/CH[5].LIMIT;SAADC/CH[6].PSELP;SAADC/CH[6].PSELN;SAADC/CH[6].CONFIG;SAADC/CH[6].LIMIT;SAADC/CH[7].PSELP;SAADC/CH[7].PSELN;SAADC/CH[7].CONFIG;SAADC/CH[7].LIMIT;SAADC/RESULT.PTR;SAADC/RESULT.MAXCNT;SAADC/RESULT.AMOUNT;P0/OUT;P0/OUTSET;P0/OUTCLR;P0/IN;P0/DIR;P0/DIRSET;P0/DIRCLR;P0/LATCH;P0/DETECTMODE;P0/PIN_CNF[0];P0/PIN_CNF[1];P0/PIN_CNF[2];P0/PIN_CNF[3];P0/PIN_CNF[4];P0/PIN_CNF[5];P0/PIN_CNF[6];P0/PIN_CNF[7];P0/PIN_CNF[8];P0/PIN_CNF[9];P0/PIN_CNF[10];P0/PIN_CNF[11];P0/PIN_CNF[12];P0/PIN_CNF[13];P0/PIN_CNF[14];P0/PIN_CNF[15];P0/PIN_CNF[16];P0/PIN_CNF[17];P0/PIN_CNF[18];P0/PIN_CNF[19];P0/PIN_CNF[20];P0/PIN_CNF[21];P0/PIN_CNF[22];P0/PIN_CNF[23];P0/PIN_CNF[24];P0/PIN_CNF[25];P0/PIN_CNF[26];P0/PIN_CNF[27];P0/PIN_CNF[28];P0/PIN_CNF[29];P0/PIN_CNF[30];P0/PIN_CNF[31];P1/OUT;P1/OUTSET;P1/OUTCLR;P1/IN;P1/DIR;P1/DIRSET;P1/DIRCLR;P1/LATCH;P1/DETECTMODE;P1/PIN_CNF[0];P1/PIN_CNF[1];P1/PIN_CNF[2];P1/PIN_CNF[3];P1/PIN_CNF[4];P1/PIN_CNF[5];P1/PIN_CNF[6];P1/PIN_CNF[7];P1/PIN_CNF[8];P1/PIN_CNF[9];P1/PIN_CNF[10];P1/PIN_CNF[11];P1/PIN_CNF[12];P1/PIN_CNF[13];P1/PIN_CNF[14];P1/PIN_CNF[15];P1/PIN_CNF[16];P1/PIN_CNF[17];P1/PIN_CNF[18];P1/PIN_CNF[19];P1/PIN_CNF[20];P1/PIN_CNF[21];P1/PIN_CNF[22];P1/PIN_CNF[23];P1/PIN_CNF[24];P1/PIN_CNF[25];P1/PIN_CNF[26];P1/PIN_CNF[27];P1/PIN_CNF[28];P1/PIN_CNF[29];P1/PIN_CNF[30];P1/PIN_CNF[31];FICR/CODEPAGESIZE;FICR/CODESIZE;FICR/DEVICEID[0];FICR/DEVICEID[1];FICR/ER[0];FICR/ER[1];FICR/ER[2];FICR/ER[3];FICR/IR[0];FICR/IR[1];FICR/IR[2];FICR/IR[3];FICR/DEVICEADDRTYPE;FICR/DEVICEADDR[0];FICR/DEVICEADDR[1];FICR/PRODTEST[0];FICR/PRODTEST[1];FICR/PRODTEST[2];FICR/INFO.PART;FICR/INFO.VARIANT;FICR/INFO.PACKAGE;FICR/INFO.RAM;FICR/INFO.FLASH;FICR/TEMP.A0;FICR/TEMP.A1;FICR/TEMP.A2;FICR/TEMP.A3;FICR/TEMP.A4;FICR/TEMP.A5;FICR/TEMP.B0;FICR/TEMP.B1;FICR/TEMP.B2;FICR/TEMP.B3;FICR/TEMP.B4;FICR/TEMP.B5;FICR/TEMP.T0;FICR/TEMP.T1;FICR/TEMP.T2;FICR/TEMP.T3;FICR/TEMP.T4;FICR/NFC.TAGHEADER0;FICR/NFC.TAGHEADER1;FICR/NFC.TAGHEADER2;FICR/NFC.TAGHEADER3;FICR/TRNG90B.BYTES;FICR/TRNG90B.RCCUTOFF;FICR/TRNG90B.APCUTOFF;FICR/TRNG90B.STARTUP;FICR/TRNG90B.ROSC1;FICR/TRNG90B.ROSC2;FICR/TRNG90B.ROSC3;FICR/TRNG90B.ROSC4" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context/apsr;CPU/CONTROL;CPU/internal;P0/PIN_CNF[3];FICR/DEVICEID[1]" name="zigbee_multi_sensor_pca10056" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="zigbee_multi_sensor_pca10056" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="zigbee_multi_sensor_pca10056" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="zigbee_multi_sensor_pca10056" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Each Second">
+   <Watchpoint expression="LEDS_NUMBER" name="LEDS_NUMBER" radix="16" linenumber="0" filename="../ses"/>
+   <Watchpoint expression="m_events_list" name="m_events_list" radix="-1" linenumber="0" filename="../ses"/>
+   <Watchpoint expression="current_battery_percent" name="current_battery_percent" radix="10" linenumber="0" filename="../ses"/>
+   <Watchpoint expression="m_dev_ctx.power_attr.battery_percentage_remaining" name="m_dev_ctx.power_attr.battery_percentage_remaining" radix="10" linenumber="0" filename="../ses"/>
+   <Watchpoint expression="pervious_battery_percent" name="pervious_battery_percent" radix="10" linenumber="0" filename="../ses"/>
+   <Watchpoint expression="reboot_counter" name="reboot_counter" radix="10" linenumber="0" filename="../ses"/>
+   <Watchpoint expression="value" name="value" radix="10" linenumber="0" filename="../ses"/>
+   <Watchpoint expression="extended_pan_id" name="extended_pan_id" radix="16" linenumber="0" filename="../ses"/>
+   <Watchpoint expression="prod_conf" name="prod_conf" radix="-1" linenumber="0" filename="../ses"/>
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="39" y="254" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="0" top="236" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="6" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="287" useTextEdit="1" openedFrom="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/examples/zigbee/experimental/SmartValve/main.c" useBinaryEdit="0" left="0" path="../../../zigbee_helpers_TWV.c" selected="0" top="278" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="54" y="40" useTextEdit="1" openedFrom="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/examples/zigbee/experimental/SmartValve/main.c" useBinaryEdit="0" left="0" path="../../../zb_smart_valve.h" selected="0" top="78" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="53" y="234" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="changeLog.h" selected="0" top="222" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="76" useTextEdit="1" openedFrom="C:/nrf5_SDK_4.2.0_REPO/examples/zigbee/experimental/SmartValve/main.c" useBinaryEdit="0" left="0" path="../../../smart_valve_inits.h" selected="1" top="24" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="193" useTextEdit="1" openedFrom="C:/nrf5_SDK_4.2.0_REPO/examples/zigbee/experimental/SmartValve/zigbee_helpers_TWV.c" useBinaryEdit="0" left="0" path="../../../zigbee_helpers_TWV.h" selected="0" top="165" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="497" useTextEdit="1" openedFrom="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/examples/zigbee/experimental/SmartValve/main.c" useBinaryEdit="0" left="0" path="../../../../../../../external/zboss/include/zcl/zb_zcl_common.h" selected="0" top="491" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="396" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../components/toolchain/cmsis/include/cmsis_gcc.h" selected="0" top="386" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="71" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../modules/nrfx/mdk/ses_startup_nrf52840.s" selected="0" top="61" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="257" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../external/zboss/osif/zb_nrf52_common.c" selected="0" top="247" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="67" y="2945" useTextEdit="1" openedFrom="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/examples/zigbee/experimental/SmartValve/zigbee_helpers_TWV.c" useBinaryEdit="0" left="0" path="../../../../../../../external/zboss/include/zboss_api_zdo.h" selected="0" top="2938" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="zigbee_multi_sensor_pca10056" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/modules/nrfx/drivers/src" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>

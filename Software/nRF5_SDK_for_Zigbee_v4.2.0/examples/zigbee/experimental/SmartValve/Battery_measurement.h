@@ -1,0 +1,6 @@
+#ifndef BATTERY_MEASUREMENT_H
+#define BATTERY_MEASUREMENT_H
+
+
+
+#endif
