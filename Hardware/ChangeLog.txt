@@ -1,0 +1,7 @@
+TWV PCB V0.91
+1. Transferring all components to the TOP layer.
+2. Adding a USB connector for external USB connection.
+3. Adding a new DC/DC NPM1300.
+4. Removed the transistor from the power supply.
+5. Changed the polarity of the power connector.
+6. Added resistors for the I2C protocol
