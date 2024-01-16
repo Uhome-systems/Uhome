@@ -88,6 +88,8 @@ static void valve_open_with_timer(void);
 
 int reboot_couter=0;
 
+bool buzzer_on_crutch = false;
+
 //TODO
 zb_uint8_t current_battery_percent;
 zb_uint8_t pervious_battery_percent;
@@ -304,6 +306,12 @@ static void pairing_advertising_off_timer_handler(void * context)
     moving_to_open = false;
     moving_to_close = false;
   }
+  else if(buzzer_on_crutch)
+  {
+    BUZZER_OFF
+    app_timer_start(pairing_advertising_off_timer, APP_TIMER_TICKS(PAIRING_TIMER_COUNTDOWN_MS-BUZZER_PAIRING_TIME_MS), &context2);
+    buzzer_on_crutch = false;
+  }
   else stop_pairing();
 }
 //------------------------------------------------------------//
@@ -465,9 +473,10 @@ static void forget_network(void)
     {
         zb_bdb_reset_via_local_action(0);//buffer reference (if 0, buffer will be allocated automatically)
         bsp_indication_set(BSP_INDICATE_ADVERTISING_DIRECTED);//BSP_INDICATE_SCANNING BSP_INDICATE_ADVERTISING_DIRECTED
-        app_timer_start(pairing_advertising_off_timer, APP_TIMER_TICKS(PAIRING_TIMER_COUNTDOWN_MS), &context2);
+        app_timer_start(pairing_advertising_off_timer, APP_TIMER_TICKS(BUZZER_PAIRING_TIME_MS), &context2);
         NRF_LOG_INFO("DEVICE WAS RESETED TO FACTORY DEFAULT");
         pairing_in_progress = true;
+        buzzer_on_crutch = true;
         BUZZER_ON
     }
 }
@@ -536,7 +545,7 @@ static void buttons_handler(bsp_event_t evt)
             NRF_LOG_INFO("CLOSE button pressed");
             break;
 
-        case BSP_EVENT_KEY_3://BUTTON_4 control
+        case BSP_EVENT_KEY_6: // was BSP_EVENT_KEY_3://BUTTON_4 control
             if(full_press_flag) 
             {
               MOTOR_SLEEP
@@ -548,7 +557,7 @@ static void buttons_handler(bsp_event_t evt)
             NRF_LOG_INFO("CONTROL button pressed");
             break;
 
-        case BSP_EVENT_KEY_4://BUTTON_5 control2
+        case BSP_EVENT_KEY_7: //was BSP_EVENT_KEY_4://BUTTON_5 control2
             if(full_press_flag) 
             {
               MOTOR_SLEEP
@@ -560,7 +569,7 @@ static void buttons_handler(bsp_event_t evt)
             NRF_LOG_INFO("CONTROL2 button pressed");
             break;
 
-        case BSP_EVENT_KEY_6: //BUTTON_4 control1 release
+        case BSP_EVENT_KEY_3: // was BSP_EVENT_KEY_6: //BUTTON_4 control1 release
             if(logic_need_to_be_restored && double_click_awaiting) 
             {
               double_click_awaiting = false;
@@ -568,9 +577,10 @@ static void buttons_handler(bsp_event_t evt)
               app_timer_start(pairing_advertising_off_timer, APP_TIMER_TICKS(MOTOR_DELAY_MS), &context2);  
             }
             else check_valve_on_off_status_and_set_attr();
+            NRF_LOG_INFO("CONTROL1 button released");
             break;
 
-        case BSP_EVENT_KEY_7: //BUTTON_5 control2 release
+        case BSP_EVENT_KEY_4: //was BSP_EVENT_KEY_7: //BUTTON_5 control2 release
             if(logic_need_to_be_restored && double_click_awaiting) 
             {
               double_click_awaiting = false;
@@ -578,6 +588,7 @@ static void buttons_handler(bsp_event_t evt)
               app_timer_start(pairing_advertising_off_timer, APP_TIMER_TICKS(MOTOR_DELAY_MS), &context2);  
             }
             else check_valve_on_off_status_and_set_attr();
+            NRF_LOG_INFO("CONTROL2 button released");
             break;
 
         default:
@@ -842,7 +853,6 @@ void zigbee_init()
     zb_ret_t       err_code;
     zb_ieee_addr_t ieee_addr;
     
-    //BUZZER_ON
     /* Set Zigbee stack logging level and traffic dump subsystem. */
     #ifdef debug_log_include
     ZB_SET_TRACE_LEVEL(ZIGBEE_TRACE_LEVEL);
@@ -915,8 +925,6 @@ void zigbee_init()
     zb_err_code = zboss_start_no_autostart();
     ZB_ERROR_CHECK(zb_err_code);
     NRF_LOG_INFO("ZBOSS stack init. Error code: %d", zb_err_code);
-    
-    BUZZER_OFF //0V
 
     //zigbee_power_down_unused_ram();
     //nrf_802154_tx_power_set(0);

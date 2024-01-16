@@ -48,7 +48,7 @@
 #define BUTTON_CONTROL_RELEASED nrf_gpio_pin_read(BUTTON_CONTROL)
 
 #define BUTTON_CONTROL2_PRESSED !nrf_gpio_pin_read(BUTTON_CONTROL2)
-#define BUTTON_CONTROL2_RELEASED nrf_gpio_pin_read(BUTTON_CONTROL2)
+#define BUTTON_CONTROL2_RELEASED nrf_gpio_pin_read(BUTTON_CONTROL2) 
 
 #define COMMAND_TO_OPEN_VALVE value//really 1 - on open, 0 off closed
 #define COMMAND_TO_CLOSE_VALVE !value//need to change also VALVE_CLOSE VALVE_OPEN

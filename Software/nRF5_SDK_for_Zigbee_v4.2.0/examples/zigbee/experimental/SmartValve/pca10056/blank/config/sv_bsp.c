@@ -85,11 +85,11 @@ static const app_button_cfg_t app_buttons[BUTTONS_NUMBER] =
     #endif // BUTTON_2
 
     #ifdef BSP_BUTTON_3
-    {BSP_BUTTON_3, false, BUTTON_PULL, bsp_button_event_handler},
+    {BSP_BUTTON_3, true, BUTTON_PULL, bsp_button_event_handler},
     #endif // BUTTON_3
 
     #ifdef BSP_BUTTON_4
-    {BSP_BUTTON_4, false, BUTTON_PULL, bsp_button_event_handler},
+    {BSP_BUTTON_4, true, BUTTON_PULL, bsp_button_event_handler},
     #endif // BUTTON_4
 
     #ifdef BSP_BUTTON_5

@@ -27,6 +27,9 @@
   <ProjectSessionItem path="zigbee_multi_sensor_pca10056;zigbee_multi_sensor_pca10056;Board Definition"/>
   <ProjectSessionItem path="zigbee_multi_sensor_pca10056;zigbee_multi_sensor_pca10056;nano-pb"/>
   <ProjectSessionItem path="zigbee_multi_sensor_pca10056;zigbee_multi_sensor_pca10056;None"/>
+  <ProjectSessionItem path="zigbee_multi_sensor_pca10056;zigbee_multi_sensor_pca10056;nRF_Drivers"/>
+  <ProjectSessionItem path="zigbee_multi_sensor_pca10056;zigbee_multi_sensor_pca10056;nRF_Libraries"/>
+  <ProjectSessionItem path="zigbee_multi_sensor_pca10056;zigbee_multi_sensor_pca10056;nRF_Log"/>
   <ProjectSessionItem path="zigbee_multi_sensor_pca10056;zigbee_multi_sensor_pca10056;nRF_Zigbee_TWV"/>
   <ProjectSessionItem path="zigbee_multi_sensor_pca10056;zigbee_multi_sensor_pca10056;Zigbee"/>
  </Project>
@@ -71,18 +74,27 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="39" y="254" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="0" top="236" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="6" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.h" selected="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="287" useTextEdit="1" openedFrom="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/examples/zigbee/experimental/SmartValve/main.c" useBinaryEdit="0" left="0" path="../../../zigbee_helpers_TWV.c" selected="0" top="278" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="54" y="40" useTextEdit="1" openedFrom="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/examples/zigbee/experimental/SmartValve/main.c" useBinaryEdit="0" left="0" path="../../../zb_smart_valve.h" selected="0" top="78" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="17" y="479" useTextEdit="1" openedFrom="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/examples/zigbee/experimental/SmartValve/main.h" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="469" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="27" y="559" useTextEdit="1" openedFrom="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/examples/zigbee/experimental/SmartValve/main.c" useBinaryEdit="0" left="0" path="../../../zigbee_helpers_TWV.c" selected="0" top="551" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="54" y="11" useTextEdit="1" openedFrom="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/examples/zigbee/experimental/SmartValve/main.c" useBinaryEdit="0" left="0" path="../../../zb_smart_valve.h" selected="0" top="6" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="53" y="234" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="changeLog.h" selected="0" top="222" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="76" useTextEdit="1" openedFrom="C:/nrf5_SDK_4.2.0_REPO/examples/zigbee/experimental/SmartValve/main.c" useBinaryEdit="0" left="0" path="../../../smart_valve_inits.h" selected="1" top="24" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="193" useTextEdit="1" openedFrom="C:/nrf5_SDK_4.2.0_REPO/examples/zigbee/experimental/SmartValve/zigbee_helpers_TWV.c" useBinaryEdit="0" left="0" path="../../../zigbee_helpers_TWV.h" selected="0" top="165" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="17" y="58" useTextEdit="1" openedFrom="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/examples/zigbee/experimental/SmartValve/main.c" useBinaryEdit="0" left="0" path="../../../smart_valve_inits.h" selected="0" top="46" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="193" useTextEdit="1" openedFrom="C:/nrf5_SDK_4.2.0_REPO/examples/zigbee/experimental/SmartValve/zigbee_helpers_TWV.c" useBinaryEdit="0" left="0" path="../../../zigbee_helpers_TWV.h" selected="0" top="126" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="497" useTextEdit="1" openedFrom="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/examples/zigbee/experimental/SmartValve/main.c" useBinaryEdit="0" left="0" path="../../../../../../../external/zboss/include/zcl/zb_zcl_common.h" selected="0" top="491" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="396" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../components/toolchain/cmsis/include/cmsis_gcc.h" selected="0" top="386" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="109" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../components/toolchain/cmsis/include/cmsis_gcc.h" selected="0" top="96" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="71" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../modules/nrfx/mdk/ses_startup_nrf52840.s" selected="0" top="61" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="257" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../external/zboss/osif/zb_nrf52_common.c" selected="0" top="247" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="470" useTextEdit="1" openedFrom="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/examples/zigbee/experimental/SmartValve/zigbee_helpers_TWV.c" useBinaryEdit="0" left="0" path="../../../../../../../external/zboss/osif/zb_nrf52_common.c" selected="0" top="464" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="67" y="2945" useTextEdit="1" openedFrom="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/examples/zigbee/experimental/SmartValve/zigbee_helpers_TWV.c" useBinaryEdit="0" left="0" path="../../../../../../../external/zboss/include/zboss_api_zdo.h" selected="0" top="2938" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="19" y="43" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../components/boards/boards.c" selected="0" top="36" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="38" y="12" useTextEdit="1" openedFrom="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/components/boards/boards.c" useBinaryEdit="0" left="0" path="../../../../../../../components/boards/boards.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="19" y="167" useTextEdit="1" openedFrom="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/examples/zigbee/experimental/SmartValve/main.c" useBinaryEdit="0" left="0" path="../config/sv_bsp.h" selected="0" top="41" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="182" useTextEdit="1" openedFrom="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/examples/zigbee/experimental/SmartValve/main.c" useBinaryEdit="0" left="0" path="../config/sv_bsp.c" selected="0" top="161" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="36" y="260" useTextEdit="1" openedFrom="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/examples/zigbee/experimental/SmartValve/pca10056/blank/config/sv_bsp.c" useBinaryEdit="0" left="0" path="../../../../../../../components/libraries/button/app_button.c" selected="0" top="257" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="93" useTextEdit="1" openedFrom="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/components/libraries/button/app_button.c" useBinaryEdit="0" left="0" path="../../../../../../../components/libraries/button/app_button.h" selected="0" top="78" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="1" y="618" useTextEdit="1" openedFrom="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/examples/zigbee/experimental/SmartValve/smart_valve_inits.h" useBinaryEdit="0" left="0" path="../../../../../../../modules/nrfx/hal/nrf_gpio.h" selected="0" top="607" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="573" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../components/libraries/log/src/nrf_log_frontend.c" selected="0" top="561" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="466" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../components/libraries/timer/app_timer2.c" selected="0" top="454" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="349" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../components/libraries/timer/drv_rtc.c" selected="0" top="322" codecName=""/>
  </Files>
- <ARMCrossStudioWindow activeProject="zigbee_multi_sensor_pca10056" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/modules/nrfx/drivers/src" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <ARMCrossStudioWindow activeProject="zigbee_multi_sensor_pca10056" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/nRF5_SDK_for_T_Z_v4.2.0_REPO/modules/nrfx/drivers/src" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>

@@ -9,11 +9,11 @@ extern "C" {
 /* Basic cluster attributes initial values. */
 #define SMART_VALVE_INIT_BASIC_APP_VERSION       01                                    /**< Version of the application software (1 byte). */
 #define SMART_VALVE_INIT_BASIC_STACK_VERSION     10                                    /**< Version of the implementation of the Zigbee stack (1 byte). */
-#define SMART_VALVE_INIT_BASIC_SV_VERSION        "V1.1" 
+#define SMART_VALVE_INIT_BASIC_SV_VERSION        "V1.2" 
 #define SMART_VALVE_INIT_BASIC_HW_VERSION        1                                    /**< Version of the hardware of the device (1 byte). */
 #define SMART_VALVE_INIT_BASIC_MANUF_NAME        "UHome"                                 /**< Manufacturer name (32 bytes). */
 #define SMART_VALVE_INIT_BASIC_MODEL_ID          "TWV"                    /**< Model number assigned by manufacturer (32-bytes long string). */
-#define SMART_VALVE_INIT_BASIC_DATE_CODE         "20230816"                            /**< First 8 bytes specify the date of manufacturer of the device in ISO 8601 format (YYYYMMDD). The rest (8 bytes) are manufacturer specific. */
+#define SMART_VALVE_INIT_BASIC_DATE_CODE         "20240112"                            /**< First 8 bytes specify the date of manufacturer of the device in ISO 8601 format (YYYYMMDD). The rest (8 bytes) are manufacturer specific. */
 #define SMART_VALVE_INIT_BASIC_POWER_SOURCE      ZB_ZCL_BASIC_POWER_SOURCE_BATTERY      /**< Type of power sources available for the device. For possible values see section 3.2.2.2.8 of ZCL specification. */
 #define SMART_VALVE_INIT_BASIC_LOCATION_DESC     "Office desk"                         /**< Describes the physical location of the device (16 bytes). May be modified during commisioning process. */
 #define SMART_VALVE_INIT_BASIC_PH_ENV            ZB_ZCL_BASIC_ENV_UNSPECIFIED          /**< Describes the type of physical environment. For possible values see section 3.2.2.2.10 of ZCL specification. */
@@ -25,6 +25,7 @@ extern "C" {
 #define OPEN_CLOSE_COUNTDOWN_MS                  10000
 #define FAIL_TIMER_COUNTDOWN_MS                  60000
 #define PAIRING_TIMER_COUNTDOWN_MS               60000//30000
+#define BUZZER_PAIRING_TIME_MS                   2000
 #define BATTERY_REPORT_TIMER_MS                  1500000 //TODO 3000000
 //----------------------------------------------------------------------------------------------------------//
 #define bat_num //needed for power config cluster to work
