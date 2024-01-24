@@ -203,7 +203,7 @@
 <text x="12.1" y="14.1" size="1" layer="25">+</text>
 <text x="38.2" y="23.3" size="1" layer="26" rot="MR0">UHome</text>
 <text x="38.7" y="50" size="2" layer="26" rot="MR0">TWV
-V-0.81</text>
+V-0.8</text>
 <circle x="24.75" y="12.992" radius="1.6" width="0.1" layer="20"/>
 <circle x="24.75" y="61.6" radius="1.6" width="0.1" layer="20"/>
 <circle x="24.75" y="45.27" radius="4" width="0.1" layer="20"/>

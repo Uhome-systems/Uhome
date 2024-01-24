@@ -1557,7 +1557,7 @@ DIN A3, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="918-418K2023S40026" prefix="XS" library_version="3" library_locally_modified="yes">
+<deviceset name="918-418K2023S40026" prefix="XS" uservalue="yes" library_version="3" library_locally_modified="yes">
 <gates>
 <gate name="XS" symbol="918-418K2023S40026" x="0" y="0"/>
 </gates>
@@ -2326,7 +2326,7 @@ DIN A3, landscape with location and doc. field</description>
 </instance>
 <instance part="XS7" gate="XS" x="270" y="41" smashed="yes">
 <attribute name="NAME" x="263" y="56" size="2" layer="95"/>
-<attribute name="VALUE" x="278" y="27" size="2" layer="96" rot="MR90"/>
+<attribute name="VALUE" x="263" y="26" size="2" layer="96" rot="MR180"/>
 </instance>
 </instances>
 <busses>
