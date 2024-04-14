@@ -1,1 +1,2 @@
-Latest firmware V1.2 and based on nRF_SDK_for_Thread_and_Zigbee
+Latest firmware V2.24 based on nRF Connect SDK 2.6.0
+Previous firmware V1.2 based on nRF SDK for Thread and Zigbee

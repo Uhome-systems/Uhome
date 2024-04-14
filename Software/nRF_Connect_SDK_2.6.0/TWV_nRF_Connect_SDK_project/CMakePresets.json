@@ -1,0 +1,29 @@
+{
+    "version": 2,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 20
+    },
+    "configurePresets": [
+        {
+            "name": "build_TWV",
+            "displayName": "Build for TWV_PCB_0_6",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/build_TWV",
+            "cacheVariables": {
+                "NCS_TOOLCHAIN_VERSION": "NONE",
+                "BOARD": "twv_pcb_0_6",
+                "BOARD_ROOT": "${sourceDir}/",
+                "mcuboot_OVERLAY_CONFIG": "C:/ncs/v2.5.0/nrf/subsys/partition_manager/partition_manager_enabled.conf;$env{ZEPHYR_BASE}/../nrf/subsys/partition_manager/partition_manager_enabled.conf",
+                "CONFIG_CORTEX_M_DEBUG_MONITOR_HOOK": "y",
+                "CONFIG_DEBUG_OPTIMIZATIONS": "y",
+                "CONFIG_DEBUG_THREAD_INFO": "y",
+                "CONFIG_SEGGER_DEBUGMON": "y",
+                "mcuboot_DTC_OVERLAY_FILE": "C:/ncs/v2.5.0/nrf/modules/mcuboot/usb.overlay;$env{ZEPHYR_BASE}/../nrf/modules/mcuboot/usb.overlay",
+                "CACHED_CONF_FILE": "${sourceDir}/prj_fota.conf",
+                "EXTRA_CONF_FILE": "${sourceDir}/boards/nrf52840dk_nrf52840_fota.conf",
+                "DTC_OVERLAY_FILE": "${sourceDir}/boards/twv_pcb_0_6.overlay"
+            }
+        }
+    ]
+}

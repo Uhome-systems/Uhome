@@ -1,0 +1,8 @@
+# TWV_PCB_0_6 board configuration
+
+# Copyright (c) 2016 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_TWV_PCB_0_6
+	bool "TWV PCB"
+	depends on SOC_NRF52840_QIAA

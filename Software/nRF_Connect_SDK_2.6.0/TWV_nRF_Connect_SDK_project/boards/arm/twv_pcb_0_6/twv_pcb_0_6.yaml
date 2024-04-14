@@ -1,0 +1,28 @@
+identifier: twv_pcb_0_6
+name: TWV_PCB_0_6
+type: mcu
+arch: arm
+ram: 256
+flash: 1024
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - adc
+  - arduino_gpio
+  - arduino_i2c
+  - arduino_serial
+  - arduino_spi
+  - ble
+  - counter
+  - gpio
+  - i2c
+  - i2s
+  - pwm
+  - spi
+  - usb_cdc
+  - usb_device
+  - watchdog
+  - netif:openthread
+  

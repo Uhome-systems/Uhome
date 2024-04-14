@@ -1,0 +1,260 @@
+// Copyright (c) 2023 Nordic Semiconductor ASA
+// SPDX-License-Identifier: Apache-2.0
+
+/dts-v1/;
+#include <nordic/nrf52840_qiaa.dtsi>
+#include "twv_pcb_0_6-pinctrl.dtsi"
+
+/ {
+	model = "TWV_PCB_0_6";
+	compatible = "uhome,twv-pcb-0-6";
+
+	chosen {
+		zephyr,console = &uart0;
+		zephyr,shell-uart = &uart0;
+		zephyr,uart-mcumgr = &uart0;
+		zephyr,bt-mon-uart = &uart0;
+		zephyr,bt-c2h-uart = &uart0;
+		zephyr,sram = &sram0;
+		zephyr,flash = &flash0;
+		zephyr,code-partition = &slot0_partition;
+		zephyr,ieee802154 = &ieee802154;
+	};
+
+	buttons {
+		compatible = "gpio-keys";
+		pairing {
+			gpios = <&gpio1 2 (GPIO_ACTIVE_LOW)>;
+			label = "Pairing button";
+		};
+
+		open {
+			gpios = <&gpio1 13 (GPIO_ACTIVE_LOW)>;
+			label = "GB Open limmit switch";
+		};
+
+		close {
+			gpios = <&gpio1 15 (GPIO_ACTIVE_LOW)>;
+			label = "GB Close limmit switch";
+		};
+
+		contro_1 {
+			gpios = <&gpio0 3 (GPIO_ACTIVE_LOW)>;
+			label = "Control limmit switch 1";
+		};
+
+		control_2 {
+			gpios = <&gpio0 5 (GPIO_ACTIVE_LOW)>;
+			label = "Control limmit switch 2";
+		};
+	};
+
+	led_indication {
+		compatible = "gpio-leds";
+		pairing_led {
+			gpios = <&gpio1 4 (GPIO_ACTIVE_LOW)>;
+		};
+
+		error_led {
+			gpios = <&gpio1 6 (GPIO_ACTIVE_LOW)>;
+		};
+
+		open_status_led {
+			gpios = <&gpio0 18 (GPIO_ACTIVE_LOW)>;
+		};
+
+		close_status_led {
+			gpios = <&gpio0 19 0>;
+		};
+	};
+};
+
+&flash0 {
+
+	partitions {
+		compatible = "fixed-partitions";
+		#address-cells = <1>;
+		#size-cells = <1>;
+
+		boot_partition: partition@0 {
+			label = "mcuboot";
+			reg = <0x00000000 0x0000C000>;
+		};
+		slot0_partition: partition@c000 {
+			label = "image-0";
+			reg = <0x0000C000 0x00076000>;
+		};
+		slot1_partition: partition@82000 {
+			label = "image-1";
+			reg = <0x00082000 0x00076000>;
+		};
+
+		/*
+		 * The flash starting at 0x000f8000 and ending at
+		 * 0x000fffff is reserved for use by the application.
+		 */
+
+		/*
+		 * Storage partition will be used by FCB/LittleFS/NVS
+		 * if enabled.
+		 */
+		storage_partition: partition@f8000 {
+			label = "storage";
+			reg = <0x000f8000 0x00008000>;
+		};
+	};
+};
+
+&adc {
+    status = "okay";
+};
+
+&gpio0 {
+    status = "okay";
+};
+
+&gpio1 {
+    status = "okay";
+};
+
+&gpiote {
+    status = "okay";
+};
+
+&uart1 {
+	current-speed = <115200>;
+	pinctrl-0 = <&uart1_default>;
+	pinctrl-1 = <&uart1_sleep>;
+	pinctrl-names = "default", "sleep";
+};
+
+&uart0 {
+	compatible = "nordic,nrf-uarte";
+	status = "okay";
+	current-speed = <115200>;
+	pinctrl-0 = <&uart0_default>;
+	pinctrl-1 = <&uart0_sleep>;
+	pinctrl-names = "default", "sleep";
+};
+
+&systick {
+    status = "okay";
+};
+
+&timer4 {
+    status = "okay";
+};
+
+&timer3 {
+    status = "okay";
+};
+
+&timer2 {
+    status = "okay";
+};
+
+&timer1 {
+    status = "okay";
+};
+
+&timer0 {
+    status = "okay";
+};
+
+&rtc0 {
+    status = "okay";
+};
+
+&rtc1 {
+    status = "okay";
+};
+
+&rtc2 {
+    status = "okay";
+};
+
+&i2c0 {
+	compatible = "nordic,nrf-twi";
+	status = "okay";
+	pinctrl-0 = <&i2c0_default>;
+	pinctrl-1 = <&i2c0_sleep>;
+	pinctrl-names = "default", "sleep";
+};
+
+&i2c1 {
+	compatible = "nordic,nrf-twi";
+	/* Cannot be used together with spi1. */
+	/* status = "okay"; */
+	pinctrl-0 = <&i2c1_default>;
+	pinctrl-1 = <&i2c1_sleep>;
+	pinctrl-names = "default", "sleep";
+};
+
+&pwm0 {
+	status = "okay";
+	pinctrl-0 = <&pwm0_default>;
+	pinctrl-1 = <&pwm0_sleep>;
+	pinctrl-names = "default", "sleep";
+};
+
+&spi0 {
+	compatible = "nordic,nrf-spi";
+	/* Cannot be used together with i2c0. */
+	/* status = "okay"; */
+	pinctrl-0 = <&spi0_default>;
+	pinctrl-1 = <&spi0_sleep>;
+	pinctrl-names = "default", "sleep";
+};
+
+&spi1 {
+	compatible = "nordic,nrf-spi";
+	status = "okay";
+	pinctrl-0 = <&spi1_default>;
+	pinctrl-1 = <&spi1_sleep>;
+	pinctrl-names = "default", "sleep";
+};
+
+&spi2 {
+	compatible = "nordic,nrf-spi";
+	status = "disabled";
+	pinctrl-0 = <&spi2_default>;
+	pinctrl-1 = <&spi2_sleep>;
+	pinctrl-names = "default", "sleep";
+};
+
+&qspi {
+	status = "okay";
+	pinctrl-0 = <&qspi_default>;
+	pinctrl-1 = <&qspi_sleep>;
+	pinctrl-names = "default", "sleep";
+	mx25r64: mx25r6435f@0 {
+		compatible = "nordic,qspi-nor";
+		reg = <0>;
+		/* MX25R64 supports only pp and pp4io */
+		writeoc = "pp4io";
+		/* MX25R64 supports all readoc options */
+		readoc = "read4io";
+		sck-frequency = <8000000>;
+		jedec-id = [c2 28 17];
+		sfdp-bfp = [
+			e5 20 f1 ff  ff ff ff 03  44 eb 08 6b  08 3b 04 bb
+			ee ff ff ff  ff ff 00 ff  ff ff 00 ff  0c 20 0f 52
+			10 d8 00 ff  23 72 f5 00  82 ed 04 cc  44 83 68 44
+			30 b0 30 b0  f7 c4 d5 5c  00 be 29 ff  f0 d0 ff ff
+		];
+		size = <67108864>;
+		has-dpd;
+		t-enter-dpd = <10000>;
+		t-exit-dpd = <35000>;
+	};
+};
+
+&ieee802154 {
+	status = "okay";
+};
+
+zephyr_udc0: &usbd {
+	compatible = "nordic,nrf-usbd";
+	status = "okay";
+};
+
