@@ -1,0 +1,1710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\_DEC_Projects\2024_02_05__valve\TWV_hardware_kicad\TWV.kicad_sch</source>
+    <date>22.02.2024 19:23:02</date>
+    <tool>Eeschema 7.0.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TWV.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BA1">
+      <value>PKMCS0909E4000-R1</value>
+      <footprint>TWV:PKMCS0909E4000-R1</footprint>
+      <libsource lib="TWV-eagle-import" part="PKMCS0909E4000-R1" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>383d4ee9-35ea-4970-9616-8c147e531868</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV-eagle-import" part="CAPACITOR-0603" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3bd65a3-f7e9-4ee7-8ac3-f328a3c04782</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV-eagle-import" part="CAPACITOR-0603" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9be659bd-0837-475a-9883-fad51de28111</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV-eagle-import" part="CAPACITOR-0603" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f95e06f9-3c3d-4040-9b5f-78018df3aebf</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV-eagle-import" part="CAPACITOR-0603" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b8a3c19-cf15-4cc4-a866-7d9818e66d44</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV-eagle-import" part="CAPACITOR-0603" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>630073ef-927d-4220-89dc-20da9e88d20c</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>220uF</value>
+      <footprint>TWV:6.3X8</footprint>
+      <libsource lib="TWV-eagle-import" part="ALUM_CAP_SMD-6.3X8" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>967a3ac0-504c-4acc-bae8-956c97745f85</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV-eagle-import" part="CAPACITOR-0603" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a4d0641-4b61-4499-91ea-6d952b670837</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV-eagle-import" part="CAPACITOR-0603" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3dc445c-b050-45a3-91c6-e9863978bf20</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV_Library" part="CAP_0603_1uF" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18cfbada-0d41-4f31-8f9c-06f13d13ce39</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV-eagle-import" part="CAPACITOR-0603" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11be945f-f793-49ab-ba9f-68d43db2f718</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV-eagle-import" part="CAPACITOR-0603" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b03384b-c10b-4a2b-8fd5-b01ded359f89</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV-eagle-import" part="CAPACITOR-0603" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f8de400-c6d6-4c8c-b4f3-2c9979fa68ea</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV-eagle-import" part="CAPACITOR-0603" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31b0f376-cd77-40fe-92d5-27a5fa8b0a3c</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>4.7uF</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV-eagle-import" part="CAPACITOR-0603" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79bc4f36-06b7-4dcd-ac4c-3794189c6e20</tstamps>
+    </comp>
+    <comp ref="DD1">
+      <value>HOLYIOT-18039</value>
+      <footprint>TWV:HOLYIOT-18039</footprint>
+      <libsource lib="TWV-eagle-import" part="HOLYIOT-18039" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>695b0f70-08e8-41a1-bbf5-bbf6aa209d4c</tstamps>
+    </comp>
+    <comp ref="DD2">
+      <value>DRV8837CDSGR</value>
+      <footprint>TWV:WSON-8</footprint>
+      <libsource lib="TWV-eagle-import" part="DRV8837CDSGR" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9685fbbe-0a60-421a-b604-e013cb300095</tstamps>
+    </comp>
+    <comp ref="DD4">
+      <value>TPS62840</value>
+      <footprint>TWV:VSON-8</footprint>
+      <libsource lib="TWV-eagle-import" part="TPS62840" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6097d8c5-8266-47e6-8143-60bfe1275b22</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>MCQ1V2012-4R7-R</value>
+      <footprint>TWV:0805</footprint>
+      <libsource lib="TWV-eagle-import" part="MCQ1V2012-4R7-R" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92687e3f-31c2-4577-9e6f-d9b99e69cbf0</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>470k</value>
+      <footprint>TWV:0603</footprint>
+      <fields>
+        <field name="JLCPCB PN">C23178</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0603WAF4703T5E</field>
+      </fields>
+      <libsource lib="TWV_Library" part="RES_0603_470K" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0603WAF4703T5E"/>
+      <property name="JLCPCB PN" value="C23178"/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ea79b93-b3ce-492a-b1f9-f3210dc31bf5</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>470k</value>
+      <footprint>TWV:0603</footprint>
+      <fields>
+        <field name="JLCPCB PN">C23178</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0603WAF4703T5E</field>
+      </fields>
+      <libsource lib="TWV_Library" part="RES_0603_470K" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0603WAF4703T5E"/>
+      <property name="JLCPCB PN" value="C23178"/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3909dc1a-4237-4506-b3e0-16e571a25436</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>330</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV_Library" part="RES_0603_470K" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9b565ba-53fd-4d3c-99de-51003124788d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>470k</value>
+      <footprint>TWV:0603</footprint>
+      <fields>
+        <field name="JLCPCB PN">C23178</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0603WAF4703T5E</field>
+      </fields>
+      <libsource lib="TWV_Library" part="RES_0603_470K" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0603WAF4703T5E"/>
+      <property name="JLCPCB PN" value="C23178"/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f27333c9-f788-4970-8f38-0c2a473a3fc2</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>470k</value>
+      <footprint>TWV:0603</footprint>
+      <fields>
+        <field name="JLCPCB PN">C23178</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0603WAF4703T5E</field>
+      </fields>
+      <libsource lib="TWV_Library" part="RES_0603_470K" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0603WAF4703T5E"/>
+      <property name="JLCPCB PN" value="C23178"/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bdf21493-534d-4522-acfe-403aa3a6b473</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>330</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV_Library" part="RES_0603_470K" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>952bd939-1508-408a-8e9a-604b6ff843df</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>5.1k</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV_Library" part="RES_0603_470K" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ef7df46-aae4-4292-8601-189e3c7854e1</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>330</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV_Library" part="RES_0603_470K" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3ad7519-3abd-4fd7-92c3-9240a90b86f8</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>470k</value>
+      <footprint>TWV:0603</footprint>
+      <fields>
+        <field name="JLCPCB PN">C23178</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0603WAF4703T5E</field>
+      </fields>
+      <libsource lib="TWV_Library" part="RES_0603_470K" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0603WAF4703T5E"/>
+      <property name="JLCPCB PN" value="C23178"/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>327e69f4-f062-473a-889b-cc37317bd5db</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1K</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV_Library" part="RES_0603_1K" description=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer PN" value=""/>
+      <property name="JLCPCB PN" value=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f6cb49a-1438-4031-87ab-942c6c2397d3</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>5.1k</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV_Library" part="RES_0603_470K" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e8ce55a-23da-4928-997c-bd7df164b4af</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>330</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV_Library" part="RES_0603_470K" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a50f989-71f8-48b1-9751-bdbec77f91e3</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>470k</value>
+      <footprint>TWV:0603</footprint>
+      <fields>
+        <field name="JLCPCB PN">C23178</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0603WAF4703T5E</field>
+      </fields>
+      <libsource lib="TWV_Library" part="RES_0603_470K" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0603WAF4703T5E"/>
+      <property name="JLCPCB PN" value="C23178"/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79a5a6ce-8176-4e66-bd63-58fbdbda3d39</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1K</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV_Library" part="RES_0603_1K" description=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer PN" value=""/>
+      <property name="JLCPCB PN" value=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3747c558-524a-4f64-8619-55b32470608b</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>470K</value>
+      <footprint>TWV:0603</footprint>
+      <fields>
+        <field name="JLCPCB PN">C23178</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0603WAF4703T5E</field>
+      </fields>
+      <libsource lib="TWV_Library" part="RES_0603_470K" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0603WAF4703T5E"/>
+      <property name="JLCPCB PN" value="C23178"/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b092433-c57d-441e-85a0-a9d6bd7bb6ef</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>1K</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV_Library" part="RES_0603_1K" description=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer PN" value=""/>
+      <property name="JLCPCB PN" value=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a091735-5ab5-403e-8754-20380378d7f4</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1K</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV_Library" part="RES_0603_1K" description=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer PN" value=""/>
+      <property name="JLCPCB PN" value=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9d78c26-b179-4ed4-a72f-912faf33b95e</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1K</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV_Library" part="RES_0603_1K" description=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer PN" value=""/>
+      <property name="JLCPCB PN" value=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fa8ef56-e558-4662-9db7-383c93b4829e</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1K</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV_Library" part="RES_0603_1K" description=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer PN" value=""/>
+      <property name="JLCPCB PN" value=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22698897-2f70-4034-9b2f-1d50a513c678</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1K</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV_Library" part="RES_0603_1K" description=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer PN" value=""/>
+      <property name="JLCPCB PN" value=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1fde0ed-b045-45de-965a-afe4650c1096</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1K</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV_Library" part="RES_0603_1K" description=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer PN" value=""/>
+      <property name="JLCPCB PN" value=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dedaedfa-48a3-4b53-bbc8-f4da0305f3a3</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1K</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV_Library" part="RES_0603_1K" description=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer PN" value=""/>
+      <property name="JLCPCB PN" value=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a1c158c-12b7-461a-a3b6-4b0b4bc799e4</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>470k</value>
+      <footprint>TWV:0603</footprint>
+      <fields>
+        <field name="JLCPCB PN">C23178</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0603WAF4703T5E</field>
+      </fields>
+      <libsource lib="TWV_Library" part="RES_0603_470K" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0603WAF4703T5E"/>
+      <property name="JLCPCB PN" value="C23178"/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>938e0823-745e-484c-a912-c3d809c83f41</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>470k</value>
+      <footprint>TWV:0603</footprint>
+      <fields>
+        <field name="JLCPCB PN">C23178</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0603WAF4703T5E</field>
+      </fields>
+      <libsource lib="TWV_Library" part="RES_0603_470K" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0603WAF4703T5E"/>
+      <property name="JLCPCB PN" value="C23178"/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc897536-41fb-4bf0-9df7-7b36ea40c20c</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>470k</value>
+      <footprint>TWV:0603</footprint>
+      <fields>
+        <field name="JLCPCB PN">C23178</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0603WAF4703T5E</field>
+      </fields>
+      <libsource lib="TWV_Library" part="RES_0603_470K" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0603WAF4703T5E"/>
+      <property name="JLCPCB PN" value="C23178"/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6abaafb8-0943-4f3b-a2f0-8d8fe1001c57</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>470k</value>
+      <footprint>TWV:0603</footprint>
+      <fields>
+        <field name="JLCPCB PN">C23178</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0603WAF4703T5E</field>
+      </fields>
+      <libsource lib="TWV_Library" part="RES_0603_470K" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0603WAF4703T5E"/>
+      <property name="JLCPCB PN" value="C23178"/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fa2214d-eac7-4435-ab4c-a65cfe077dba</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>470k</value>
+      <footprint>TWV:0603</footprint>
+      <fields>
+        <field name="JLCPCB PN">C23178</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0603WAF4703T5E</field>
+      </fields>
+      <libsource lib="TWV_Library" part="RES_0603_470K" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer PN" value="0603WAF4703T5E"/>
+      <property name="JLCPCB PN" value="C23178"/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20138309-050f-4466-ae9f-e15606e60f5b</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>RES_0603_470K</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV_Library" part="RES_0603_470K" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51c5ccd5-6233-4e97-bd56-4723627beb8f</tstamps>
+    </comp>
+    <comp ref="T3">
+      <value>TEST_POINT_2MM</value>
+      <footprint>TWV:TEST_POINT_2MM</footprint>
+      <libsource lib="TWV-eagle-import" part="TEST_POINT_2MM" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e9b33ac-07a6-499c-9df1-a7f60bd64293</tstamps>
+    </comp>
+    <comp ref="T4">
+      <value>TEST_POINT_2MM</value>
+      <footprint>TWV:TEST_POINT_2MM</footprint>
+      <libsource lib="TWV-eagle-import" part="TEST_POINT_2MM" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9428fcc-bc18-4d14-af5a-85f098e7c5ea</tstamps>
+    </comp>
+    <comp ref="T5">
+      <value>TEST_POINT_2MM</value>
+      <footprint>TWV:TEST_POINT_2MM</footprint>
+      <libsource lib="TWV-eagle-import" part="TEST_POINT_2MM" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed01978e-f065-41f4-bdf3-36601af799bc</tstamps>
+    </comp>
+    <comp ref="T6">
+      <value>TEST_POINT_2MM</value>
+      <footprint>TWV:TEST_POINT_2MM</footprint>
+      <libsource lib="TWV-eagle-import" part="TEST_POINT_2MM" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc552671-5fd1-48ca-a0a4-579d89411bd2</tstamps>
+    </comp>
+    <comp ref="T9">
+      <value>TEST_POINT_2MM</value>
+      <footprint>TWV:TEST_POINT_2MM</footprint>
+      <libsource lib="TWV-eagle-import" part="TEST_POINT_2MM" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>603f82cb-c0f7-4cca-b432-bb33e62b57c4</tstamps>
+    </comp>
+    <comp ref="T10">
+      <value>TEST_POINT_2MM</value>
+      <footprint>TWV:TEST_POINT_2MM</footprint>
+      <libsource lib="TWV-eagle-import" part="TEST_POINT_2MM" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9994d749-f173-4550-8784-fb00a0d7389c</tstamps>
+    </comp>
+    <comp ref="T11">
+      <value>TEST_POINT_2MM</value>
+      <footprint>TWV:TEST_POINT_2MM</footprint>
+      <libsource lib="TWV-eagle-import" part="TEST_POINT_2MM" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d0f0763-4ce1-4d73-a288-5c7c3a2e7f00</tstamps>
+    </comp>
+    <comp ref="VD1">
+      <value>TZ-P2-0603GTCS1-0.6T</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV-eagle-import" part="TZ-P2-0603GTCS1-0.6T" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e102fd56-04aa-4c02-8c13-814baae75082</tstamps>
+    </comp>
+    <comp ref="VD2">
+      <value>~</value>
+      <footprint>TWV:SOT-23</footprint>
+      <fields>
+        <field name="JLCPCB PN">C20917</field>
+        <field name="Manufacturer">Alpha &amp; Omega Semicon</field>
+        <field name="Manufacturer PN">AO3400A</field>
+      </fields>
+      <libsource lib="TWV_Library" part="Q_AO3400A" description=""/>
+      <property name="Manufacturer" value="Alpha &amp; Omega Semicon"/>
+      <property name="Manufacturer PN" value="AO3400A"/>
+      <property name="JLCPCB PN" value="C20917"/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>596203ff-6269-4731-9004-9c0c623b2af1</tstamps>
+    </comp>
+    <comp ref="VD3">
+      <value>~</value>
+      <footprint>TWV:SOT-23</footprint>
+      <fields>
+        <field name="JLCPCB PN">C20917</field>
+        <field name="Manufacturer">Alpha &amp; Omega Semicon</field>
+        <field name="Manufacturer PN">AO3400A</field>
+      </fields>
+      <libsource lib="TWV_Library" part="Q_AO3400A" description=""/>
+      <property name="Manufacturer" value="Alpha &amp; Omega Semicon"/>
+      <property name="Manufacturer PN" value="AO3400A"/>
+      <property name="JLCPCB PN" value="C20917"/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7469ea43-8ada-4988-9731-afc4065e14c4</tstamps>
+    </comp>
+    <comp ref="VD4">
+      <value>SD103CW-AQ</value>
+      <footprint>TWV:SOD-123F</footprint>
+      <libsource lib="TWV_Library" part="D_SD103CW-AQ" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f623a3ba-0128-4b31-aaf6-7aa0eee21315</tstamps>
+    </comp>
+    <comp ref="VD5">
+      <value>SD103CW-AQ</value>
+      <footprint>TWV:SOD-123F</footprint>
+      <libsource lib="" part="D_SD103CW-AQ_1" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e10afd80-1317-4a22-a543-25537502aa17</tstamps>
+    </comp>
+    <comp ref="VD7">
+      <value>TZ-P2-06030TCS1-0.6T</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV-eagle-import" part="TZ-P2-06030TCS1-0.6T" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f534d245-7444-4f63-9550-5125d0d27ef4</tstamps>
+    </comp>
+    <comp ref="VD8">
+      <value>TZ-P2-0603GTCS1-0.6T</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV-eagle-import" part="TZ-P2-0603GTCS1-0.6T" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99c4f3a3-2779-4491-aa23-720ae1ed32e8</tstamps>
+    </comp>
+    <comp ref="VD9">
+      <value>TZ-P2-06030TCS1-0.6T</value>
+      <footprint>TWV:0603</footprint>
+      <libsource lib="TWV-eagle-import" part="TZ-P2-06030TCS1-0.6T" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a782d27-dc8d-4e7c-a470-d61e1dd62486</tstamps>
+    </comp>
+    <comp ref="VD11">
+      <value>~</value>
+      <footprint>TWV:SOD-123F</footprint>
+      <libsource lib="" part="D_SD103CW-AQ_2" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3438719-d5cc-4693-9b82-777ac1558328</tstamps>
+    </comp>
+    <comp ref="VT1">
+      <value>2SC1623</value>
+      <footprint>TWV:SOT-23</footprint>
+      <libsource lib="TWV-eagle-import" part="2SC1623" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db990628-6657-4fc8-ba62-3f808020a200</tstamps>
+    </comp>
+    <comp ref="VT3">
+      <value>IRLML6401</value>
+      <footprint>TWV:SOT-23</footprint>
+      <libsource lib="TWV-eagle-import" part="IRLML6401" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c17ca71-b040-4d7d-ac22-9f31ae650beb</tstamps>
+    </comp>
+    <comp ref="VT4">
+      <value>~</value>
+      <footprint>TWV:SOT-23</footprint>
+      <fields>
+        <field name="JLCPCB PN">C183004</field>
+        <field name="Manufacturer">Vishay Intertech</field>
+        <field name="Manufacturer PN">SI2333DDS-T1-GE3</field>
+      </fields>
+      <libsource lib="TWV_Library" part="Q_SI2333" description=""/>
+      <property name="Manufacturer" value="Vishay Intertech"/>
+      <property name="Manufacturer PN" value="SI2333DDS-T1-GE3"/>
+      <property name="JLCPCB PN" value="C183004"/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b0e86d6-aabb-4aa4-800f-54522c72330e</tstamps>
+    </comp>
+    <comp ref="VT5">
+      <value>~</value>
+      <footprint>TWV:SOT-23</footprint>
+      <fields>
+        <field name="JLCPCB PN">C183004</field>
+        <field name="Manufacturer">Vishay Intertech</field>
+        <field name="Manufacturer PN">SI2333DDS-T1-GE3</field>
+      </fields>
+      <libsource lib="TWV_Library" part="Q_SI2333" description=""/>
+      <property name="Manufacturer" value="Vishay Intertech"/>
+      <property name="Manufacturer PN" value="SI2333DDS-T1-GE3"/>
+      <property name="JLCPCB PN" value="C183004"/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b37d28f-8dc1-4695-804c-5a06730e4d60</tstamps>
+    </comp>
+    <comp ref="XS1">
+      <value>BM03B-SRSS-TB</value>
+      <footprint>TWV:BM03B-SRSS-TB</footprint>
+      <libsource lib="TWV-eagle-import" part="BM03B-SRSS-TB" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3c2360c-bd72-4813-bfc2-037167244920</tstamps>
+    </comp>
+    <comp ref="XS2">
+      <value>BM03B-SRSS-TB</value>
+      <footprint>TWV:BM03B-SRSS-TB</footprint>
+      <libsource lib="TWV-eagle-import" part="BM03B-SRSS-TB" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bd014c7-5bc6-4c62-bb5b-420d6b84230e</tstamps>
+    </comp>
+    <comp ref="XS3">
+      <value>BM02B-SRSS-TB</value>
+      <footprint>TWV:BM02B-SRSS-TB</footprint>
+      <libsource lib="TWV-eagle-import" part="BM02B-SRSS-TB" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>444df303-0bcf-442f-8949-47a5d4181129</tstamps>
+    </comp>
+    <comp ref="XS4">
+      <value>BM02B-SRSS-TB</value>
+      <footprint>TWV:BM02B-SRSS-TB</footprint>
+      <libsource lib="TWV-eagle-import" part="BM02B-SRSS-TB" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48941382-8b5b-4271-9e93-5518df92917e</tstamps>
+    </comp>
+    <comp ref="XS5">
+      <value>BM02B-SRSS-TB</value>
+      <footprint>TWV:BM02B-SRSS-TB</footprint>
+      <libsource lib="TWV-eagle-import" part="BM02B-SRSS-TB" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53c90793-c60e-4521-9338-3a3368b3f463</tstamps>
+    </comp>
+    <comp ref="XS6">
+      <value>TH1X4-2.54MM</value>
+      <footprint>TWV:TH1X4-2.54MM</footprint>
+      <libsource lib="TWV-eagle-import" part="TH1X4-2.54MM" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55db295e-358a-4047-b600-9ba7471035bb</tstamps>
+    </comp>
+    <comp ref="XS7">
+      <value>918-418K2023S40026</value>
+      <footprint>TWV:918-418K2023S40026</footprint>
+      <libsource lib="TWV-eagle-import" part="918-418K2023S40026" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc28ed8a-50e0-4d0a-b89c-c7b2bf794b55</tstamps>
+    </comp>
+    <comp ref="XS8">
+      <value>F1003WR-S-04PNLNG1GT0R</value>
+      <footprint>TWV:F1003WR-S-04PNLNG1GT0R</footprint>
+      <libsource lib="TWV-eagle-import" part="F1003WR-S-04PNLNG1GT0R" description=""/>
+      <property name="Sheetname" value="TWV_0"/>
+      <property name="Sheetfile" value="TWV.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9c63385-5254-426f-aef8-7bc562018f95</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="D_SD103CW-AQ_1">
+      <fields>
+        <field name="Reference">VD</field>
+        <field name="Footprint">TWV:SOD-123F</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="bidirectional"/>
+        <pin num="C" name="C" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="D_SD103CW-AQ_2">
+      <fields>
+        <field name="Reference">VD</field>
+        <field name="Footprint">TWV:SOD-123F</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="bidirectional"/>
+        <pin num="C" name="C" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV-eagle-import" part="2SC1623">
+      <fields>
+        <field name="Reference">VT</field>
+        <field name="Footprint">TWV:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="bidirectional"/>
+        <pin num="2" name="E" type="bidirectional"/>
+        <pin num="3" name="C" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV-eagle-import" part="918-418K2023S40026">
+      <fields>
+        <field name="Reference">XS</field>
+        <field name="Footprint">TWV:918-418K2023S40026</field>
+      </fields>
+      <pins>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A9" name="VBUS_A" type="bidirectional"/>
+        <pin num="A12" name="GND_A" type="bidirectional"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B9" name="VBUS_B" type="bidirectional"/>
+        <pin num="B12" name="GND_B" type="bidirectional"/>
+        <pin num="SH1" name="SHIELD" type="bidirectional"/>
+        <pin num="SH2" name="SHIELD" type="bidirectional"/>
+        <pin num="SH3" name="SHIELD" type="bidirectional"/>
+        <pin num="SH4" name="SHIELD" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV-eagle-import" part="ALUM_CAP_SMD-6.3X8">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">TWV:6.3X8</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="bidirectional"/>
+        <pin num="-" name="-" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV-eagle-import" part="BM02B-SRSS-TB">
+      <fields>
+        <field name="Reference">XS</field>
+        <field name="Footprint">TWV:BM02B-SRSS-TB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV-eagle-import" part="BM03B-SRSS-TB">
+      <fields>
+        <field name="Reference">XS</field>
+        <field name="Footprint">TWV:BM03B-SRSS-TB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+        <pin num="3" name="3" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV-eagle-import" part="CAPACITOR-0603">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">TWV:0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV-eagle-import" part="DRV8837CDSGR">
+      <fields>
+        <field name="Reference">DD</field>
+        <field name="Footprint">TWV:WSON-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VM" type="bidirectional"/>
+        <pin num="2" name="OUT1" type="bidirectional"/>
+        <pin num="3" name="OUT2" type="bidirectional"/>
+        <pin num="4" name="GND" type="bidirectional"/>
+        <pin num="5" name="IN2" type="bidirectional"/>
+        <pin num="6" name="IN1" type="bidirectional"/>
+        <pin num="7" name="NSLEEP" type="bidirectional"/>
+        <pin num="8" name="VCC" type="bidirectional"/>
+        <pin num="GND" name="GND" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV-eagle-import" part="F1003WR-S-04PNLNG1GT0R">
+      <fields>
+        <field name="Reference">XS8</field>
+        <field name="Value">F1003WR-S-04PNLNG1GT0R</field>
+        <field name="Footprint">TWV:F1003WR-S-04PNLNG1GT0R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+        <pin num="3" name="3" type="bidirectional"/>
+        <pin num="4" name="4" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV-eagle-import" part="HOLYIOT-18039">
+      <fields>
+        <field name="Reference">DD</field>
+        <field name="Footprint">TWV:HOLYIOT-18039</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND@1" type="bidirectional"/>
+        <pin num="2" name="P1.11" type="bidirectional"/>
+        <pin num="3" name="P1.10" type="bidirectional"/>
+        <pin num="4" name="P1.13" type="bidirectional"/>
+        <pin num="5" name="P1.15" type="bidirectional"/>
+        <pin num="6" name="P0.03" type="bidirectional"/>
+        <pin num="7" name="P0.02" type="bidirectional"/>
+        <pin num="8" name="P0.28" type="bidirectional"/>
+        <pin num="9" name="P0.29" type="bidirectional"/>
+        <pin num="10" name="P0.30" type="bidirectional"/>
+        <pin num="11" name="P0.31" type="bidirectional"/>
+        <pin num="12" name="P0.04" type="bidirectional"/>
+        <pin num="13" name="P0.05" type="bidirectional"/>
+        <pin num="14" name="VDD" type="bidirectional"/>
+        <pin num="15" name="P0.07" type="bidirectional"/>
+        <pin num="16" name="P1.09" type="bidirectional"/>
+        <pin num="17" name="P0.12" type="bidirectional"/>
+        <pin num="18" name="P0.23" type="bidirectional"/>
+        <pin num="19" name="P0.21" type="bidirectional"/>
+        <pin num="20" name="P0.19" type="bidirectional"/>
+        <pin num="21" name="P0.18" type="bidirectional"/>
+        <pin num="22" name="VBUS" type="bidirectional"/>
+        <pin num="23" name="D-" type="bidirectional"/>
+        <pin num="24" name="D+" type="bidirectional"/>
+        <pin num="25" name="GND@2" type="bidirectional"/>
+        <pin num="26" name="P0.22" type="bidirectional"/>
+        <pin num="27" name="P1.00" type="bidirectional"/>
+        <pin num="28" name="P1.03" type="bidirectional"/>
+        <pin num="29" name="P1.01" type="bidirectional"/>
+        <pin num="30" name="P1.02" type="bidirectional"/>
+        <pin num="31" name="SWDCLK" type="bidirectional"/>
+        <pin num="32" name="SWDIO" type="bidirectional"/>
+        <pin num="33" name="P1.04" type="bidirectional"/>
+        <pin num="34" name="P1.06" type="bidirectional"/>
+        <pin num="35" name="P0.09" type="bidirectional"/>
+        <pin num="36" name="P0.10" type="bidirectional"/>
+        <pin num="37" name="GND@3" type="bidirectional"/>
+        <pin num="38" name="P1.14" type="bidirectional"/>
+        <pin num="39" name="P1.12" type="bidirectional"/>
+        <pin num="40" name="P0.25" type="bidirectional"/>
+        <pin num="41" name="P0.11" type="bidirectional"/>
+        <pin num="42" name="P1.08" type="bidirectional"/>
+        <pin num="43" name="P0.27" type="bidirectional"/>
+        <pin num="44" name="P0.08" type="bidirectional"/>
+        <pin num="45" name="P0.06" type="bidirectional"/>
+        <pin num="46" name="P0.26" type="bidirectional"/>
+        <pin num="47" name="P1.07" type="bidirectional"/>
+        <pin num="48" name="P1.05" type="bidirectional"/>
+        <pin num="49" name="P0.24" type="bidirectional"/>
+        <pin num="50" name="P0.20" type="bidirectional"/>
+        <pin num="51" name="P0.17" type="bidirectional"/>
+        <pin num="52" name="P0.15" type="bidirectional"/>
+        <pin num="53" name="P0.14" type="bidirectional"/>
+        <pin num="54" name="P0.13" type="bidirectional"/>
+        <pin num="55" name="P0.16" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV-eagle-import" part="IRLML6401">
+      <fields>
+        <field name="Reference">VT</field>
+        <field name="Footprint">TWV:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="bidirectional"/>
+        <pin num="2" name="S" type="bidirectional"/>
+        <pin num="3" name="D" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV-eagle-import" part="MCQ1V2012-4R7-R">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Footprint">TWV:0805</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="1" type="bidirectional"/>
+        <pin num="P$2" name="2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV-eagle-import" part="PKMCS0909E4000-R1">
+      <fields>
+        <field name="Reference">BA</field>
+        <field name="Footprint">TWV:PKMCS0909E4000-R1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="bidirectional"/>
+        <pin num="2" name="-" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV-eagle-import" part="TEST_POINT_2MM">
+      <fields>
+        <field name="Footprint">TWV:TEST_POINT_2MM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV-eagle-import" part="TH1X4-2.54MM">
+      <fields>
+        <field name="Reference">XS</field>
+        <field name="Footprint">TWV:TH1X4-2.54MM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+        <pin num="3" name="3" type="bidirectional"/>
+        <pin num="4" name="4" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV-eagle-import" part="TPS62840">
+      <fields>
+        <field name="Reference">DD</field>
+        <field name="Footprint">TWV:VSON-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="bidirectional"/>
+        <pin num="2" name="VIN" type="bidirectional"/>
+        <pin num="3" name="MODE" type="bidirectional"/>
+        <pin num="4" name="EN" type="bidirectional"/>
+        <pin num="5" name="VSET" type="bidirectional"/>
+        <pin num="6" name="STOP" type="bidirectional"/>
+        <pin num="7" name="SW" type="bidirectional"/>
+        <pin num="8" name="VOS" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV-eagle-import" part="TZ-P2-06030TCS1-0.6T">
+      <fields>
+        <field name="Reference">VD</field>
+        <field name="Footprint">TWV:0603</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="bidirectional"/>
+        <pin num="C" name="C" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV-eagle-import" part="TZ-P2-0603GTCS1-0.6T">
+      <fields>
+        <field name="Reference">VD</field>
+        <field name="Footprint">TWV:0603</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="bidirectional"/>
+        <pin num="C" name="C" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV_Library" part="CAP_0603_1uF">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF</field>
+        <field name="Footprint">TWV:0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV_Library" part="D_SD103CW-AQ">
+      <fields>
+        <field name="Reference">VD4</field>
+        <field name="Value">SD103CW-AQ</field>
+        <field name="Footprint">TWV:SOD-123F</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="bidirectional"/>
+        <pin num="C" name="C" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV_Library" part="Q_AO3400A">
+      <fields>
+        <field name="Reference">VD</field>
+        <field name="Footprint">TWV:SOT-23</field>
+        <field name="Manufacturer">Alpha &amp; Omega Semicon</field>
+        <field name="Manufacturer PN">AO3400A</field>
+        <field name="JLCPCB PN">C20917</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="bidirectional"/>
+        <pin num="2" name="S" type="bidirectional"/>
+        <pin num="3" name="D" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV_Library" part="Q_SI2333">
+      <fields>
+        <field name="Reference">VT</field>
+        <field name="Footprint">TWV:SOT-23</field>
+        <field name="Manufacturer">Vishay Intertech</field>
+        <field name="Manufacturer PN">SI2333DDS-T1-GE3</field>
+        <field name="JLCPCB PN">C183004</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="bidirectional"/>
+        <pin num="2" name="S" type="bidirectional"/>
+        <pin num="3" name="D" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV_Library" part="RES_0603_1K">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1K</field>
+        <field name="Footprint">TWV:0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="TWV_Library" part="RES_0603_470K">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">470K</field>
+        <field name="Footprint">TWV:0603</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer PN">0603WAF4703T5E</field>
+        <field name="JLCPCB PN">C23178</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="TWV-eagle-import">
+      <uri>D:\_DEC_Projects\2024_02_05__valve\TWV_hardware_kicad/TWV-eagle-import.kicad_sym</uri>
+    </library>
+    <library logical="TWV_Library">
+      <uri>D:\_DEC_Projects\2024_02_05__valve\TWV_hardware_kicad/TWV_Library.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+3.3V">
+      <node ref="BA1" pin="1" pinfunction="+" pintype="bidirectional"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="C9" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="DD1" pin="14" pinfunction="VDD" pintype="bidirectional"/>
+      <node ref="DD4" pin="8" pinfunction="VOS" pintype="bidirectional"/>
+      <node ref="L2" pin="P$2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="R10" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="R15" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="VD4" pin="C" pinfunction="C" pintype="bidirectional"/>
+      <node ref="XS6" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/BATTERY">
+      <node ref="C2" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="DD1" pin="7" pinfunction="P0.02" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/BUTTON">
+      <node ref="C10" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="DD1" pin="30" pinfunction="P1.02" pintype="bidirectional"/>
+      <node ref="R18" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/BUZ">
+      <node ref="DD1" pin="3" pinfunction="P1.10" pintype="bidirectional"/>
+      <node ref="R20" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/CLOSE">
+      <node ref="C13" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="DD1" pin="5" pinfunction="P1.15" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/CONTROL">
+      <node ref="C5" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="DD1" pin="6" pinfunction="P0.03" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/CONTROL2">
+      <node ref="C8" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="DD1" pin="13" pinfunction="P0.05" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/D1">
+      <node ref="DD1" pin="21" pinfunction="P0.18" pintype="bidirectional"/>
+      <node ref="VD1" pin="C" pinfunction="C" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/D4">
+      <node ref="DD1" pin="20" pinfunction="P0.19" pintype="bidirectional"/>
+      <node ref="VD7" pin="C" pinfunction="C" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/IN1">
+      <node ref="DD1" pin="28" pinfunction="P1.03" pintype="bidirectional"/>
+      <node ref="DD2" pin="6" pinfunction="IN1" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/IN2">
+      <node ref="DD1" pin="29" pinfunction="P1.01" pintype="bidirectional"/>
+      <node ref="DD2" pin="5" pinfunction="IN2" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/LED1">
+      <node ref="DD1" pin="33" pinfunction="P1.04" pintype="bidirectional"/>
+      <node ref="VD8" pin="C" pinfunction="C" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/LED2">
+      <node ref="DD1" pin="34" pinfunction="P1.06" pintype="bidirectional"/>
+      <node ref="VD9" pin="C" pinfunction="C" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/M+">
+      <node ref="C15" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="DD2" pin="3" pinfunction="OUT2" pintype="bidirectional"/>
+      <node ref="T9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="XS3" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/M-">
+      <node ref="C15" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="DD2" pin="2" pinfunction="OUT1" pintype="bidirectional"/>
+      <node ref="T10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="XS3" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/NSLEEP">
+      <node ref="DD1" pin="27" pinfunction="P1.00" pintype="bidirectional"/>
+      <node ref="DD2" pin="7" pinfunction="NSLEEP" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/OPEN">
+      <node ref="DD1" pin="4" pinfunction="P1.13" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/SWDCLK">
+      <node ref="DD1" pin="31" pinfunction="SWDCLK" pintype="bidirectional"/>
+      <node ref="XS6" pin="3" pinfunction="3" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/SWDIO">
+      <node ref="DD1" pin="32" pinfunction="SWDIO" pintype="bidirectional"/>
+      <node ref="XS6" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/VBAT">
+      <node ref="C1" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="C11" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="C6" pin="+" pinfunction="+" pintype="bidirectional"/>
+      <node ref="DD2" pin="1" pinfunction="VM" pintype="bidirectional"/>
+      <node ref="DD2" pin="8" pinfunction="VCC" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="R27" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="R28" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="VT3" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="VT4" pin="3" pinfunction="D" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/VBUS">
+      <node ref="C14" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="DD1" pin="22" pinfunction="VBUS" pintype="bidirectional"/>
+      <node ref="R30" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="T11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="VD11" pin="A" pinfunction="A" pintype="bidirectional"/>
+      <node ref="XS5" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="XS7" pin="A9" pinfunction="VBUS_A" pintype="bidirectional"/>
+      <node ref="XS7" pin="B9" pinfunction="VBUS_B" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/VOUT">
+      <node ref="C16" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="DD4" pin="2" pinfunction="VIN" pintype="bidirectional"/>
+      <node ref="DD4" pin="4" pinfunction="EN" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/XS1.1">
+      <node ref="R14" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="T4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="XS2" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/XS1.3">
+      <node ref="T5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="XS2" pin="3" pinfunction="3" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/XS2.1">
+      <node ref="T3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="XS1" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/XS2.3">
+      <node ref="T6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="XS1" pin="3" pinfunction="3" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="GND">
+      <node ref="C10" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="R29" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="VD2" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="VD3" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="VD5" pin="A" pinfunction="A" pintype="bidirectional"/>
+      <node ref="VT1" pin="2" pinfunction="E" pintype="bidirectional"/>
+      <node ref="XS1" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="XS2" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="XS6" pin="4" pinfunction="4" pintype="bidirectional"/>
+      <node ref="XS8" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="XS8" pin="4" pinfunction="4" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="Net-(BA1--)">
+      <node ref="BA1" pin="2" pinfunction="-" pintype="bidirectional"/>
+      <node ref="R10" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="VT1" pin="3" pinfunction="C" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="R14" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="Net-(DD1-GND@1)">
+      <node ref="DD1" pin="1" pinfunction="GND@1" pintype="bidirectional"/>
+      <node ref="DD1" pin="25" pinfunction="GND@2" pintype="bidirectional"/>
+      <node ref="DD1" pin="37" pinfunction="GND@3" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="Net-(DD2-GND-Pad4)">
+      <node ref="DD2" pin="4" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="DD2" pin="GND" pinfunction="GND" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="Net-(DD4-GND)">
+      <node ref="C16" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="DD4" pin="1" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="DD4" pin="3" pinfunction="MODE" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="Net-(DD4-SW)">
+      <node ref="DD4" pin="7" pinfunction="SW" pintype="bidirectional"/>
+      <node ref="L2" pin="P$1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="R13" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="R18" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="VD4" pin="A" pinfunction="A" pintype="bidirectional"/>
+      <node ref="VD5" pin="C" pinfunction="C" pintype="bidirectional"/>
+      <node ref="XS8" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="XS8" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="Net-(VD2-D)">
+      <node ref="R26" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="VD2" pin="3" pinfunction="D" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="Net-(VD2-G)">
+      <node ref="R28" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="VD2" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="VD3" pin="3" pinfunction="D" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="Net-(VD3-G)">
+      <node ref="R29" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="R30" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="VD3" pin="1" pinfunction="G" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="Net-(VT1-B)">
+      <node ref="R20" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="VT1" pin="1" pinfunction="B" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="Net-(VT3-D)">
+      <node ref="VT3" pin="3" pinfunction="D" pintype="bidirectional"/>
+      <node ref="XS4" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="Net-(VT4-G)">
+      <node ref="R26" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="R27" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="VT4" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="VT5" pin="1" pinfunction="G" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="Net-(VT4-S)">
+      <node ref="VT4" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="VT5" pin="2" pinfunction="S" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="Net-(VT5-D)">
+      <node ref="VD11" pin="C" pinfunction="C" pintype="bidirectional"/>
+      <node ref="VT5" pin="3" pinfunction="D" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="Net-(XS7-GND_A)">
+      <node ref="XS7" pin="A12" pinfunction="GND_A" pintype="bidirectional"/>
+      <node ref="XS7" pin="B12" pinfunction="GND_B" pintype="bidirectional"/>
+      <node ref="XS7" pin="SH1" pinfunction="SHIELD" pintype="bidirectional"/>
+      <node ref="XS7" pin="SH2" pinfunction="SHIELD" pintype="bidirectional"/>
+      <node ref="XS7" pin="SH3" pinfunction="SHIELD" pintype="bidirectional"/>
+      <node ref="XS7" pin="SH4" pinfunction="SHIELD" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="unconnected-(C1-Pad2)">
+      <node ref="C1" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="unconnected-(C2-Pad2)">
+      <node ref="C2" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="unconnected-(C3-Pad2)">
+      <node ref="C3" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="unconnected-(C4-Pad2)">
+      <node ref="C4" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="unconnected-(C5-Pad2)">
+      <node ref="C5" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="unconnected-(C6-Pad-)">
+      <node ref="C6" pin="-" pinfunction="-" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="unconnected-(C8-Pad2)">
+      <node ref="C8" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="unconnected-(C9-Pad2)">
+      <node ref="C9" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="unconnected-(C11-Pad2)">
+      <node ref="C11" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="unconnected-(C13-Pad2)">
+      <node ref="C13" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="unconnected-(C14-Pad2)">
+      <node ref="C14" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="unconnected-(DD1-D+-Pad24)">
+      <node ref="DD1" pin="24" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="unconnected-(DD1-D--Pad23)">
+      <node ref="DD1" pin="23" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="unconnected-(DD1-P0.04-Pad12)">
+      <node ref="DD1" pin="12" pinfunction="P0.04" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="unconnected-(DD1-P0.06-Pad45)">
+      <node ref="DD1" pin="45" pinfunction="P0.06" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="unconnected-(DD1-P0.07-Pad15)">
+      <node ref="DD1" pin="15" pinfunction="P0.07" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="unconnected-(DD1-P0.08-Pad44)">
+      <node ref="DD1" pin="44" pinfunction="P0.08" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="unconnected-(DD1-P0.09-Pad35)">
+      <node ref="DD1" pin="35" pinfunction="P0.09" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="unconnected-(DD1-P0.10-Pad36)">
+      <node ref="DD1" pin="36" pinfunction="P0.10" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="unconnected-(DD1-P0.11-Pad41)">
+      <node ref="DD1" pin="41" pinfunction="P0.11" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="unconnected-(DD1-P0.12-Pad17)">
+      <node ref="DD1" pin="17" pinfunction="P0.12" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="unconnected-(DD1-P0.13-Pad54)">
+      <node ref="DD1" pin="54" pinfunction="P0.13" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="unconnected-(DD1-P0.14-Pad53)">
+      <node ref="DD1" pin="53" pinfunction="P0.14" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="unconnected-(DD1-P0.15-Pad52)">
+      <node ref="DD1" pin="52" pinfunction="P0.15" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="unconnected-(DD1-P0.16-Pad55)">
+      <node ref="DD1" pin="55" pinfunction="P0.16" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="unconnected-(DD1-P0.17-Pad51)">
+      <node ref="DD1" pin="51" pinfunction="P0.17" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="unconnected-(DD1-P0.20-Pad50)">
+      <node ref="DD1" pin="50" pinfunction="P0.20" pintype="bidirectional"/>
+    </net>
+    <net code="72" name="unconnected-(DD1-P0.21-Pad19)">
+      <node ref="DD1" pin="19" pinfunction="P0.21" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="unconnected-(DD1-P0.22-Pad26)">
+      <node ref="DD1" pin="26" pinfunction="P0.22" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="unconnected-(DD1-P0.23-Pad18)">
+      <node ref="DD1" pin="18" pinfunction="P0.23" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="unconnected-(DD1-P0.24-Pad49)">
+      <node ref="DD1" pin="49" pinfunction="P0.24" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="unconnected-(DD1-P0.25-Pad40)">
+      <node ref="DD1" pin="40" pinfunction="P0.25" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="unconnected-(DD1-P0.26-Pad46)">
+      <node ref="DD1" pin="46" pinfunction="P0.26" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="unconnected-(DD1-P0.27-Pad43)">
+      <node ref="DD1" pin="43" pinfunction="P0.27" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="unconnected-(DD1-P0.28-Pad8)">
+      <node ref="DD1" pin="8" pinfunction="P0.28" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="unconnected-(DD1-P0.29-Pad9)">
+      <node ref="DD1" pin="9" pinfunction="P0.29" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="unconnected-(DD1-P0.30-Pad10)">
+      <node ref="DD1" pin="10" pinfunction="P0.30" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="unconnected-(DD1-P0.31-Pad11)">
+      <node ref="DD1" pin="11" pinfunction="P0.31" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="unconnected-(DD1-P1.05-Pad48)">
+      <node ref="DD1" pin="48" pinfunction="P1.05" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="unconnected-(DD1-P1.07-Pad47)">
+      <node ref="DD1" pin="47" pinfunction="P1.07" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="unconnected-(DD1-P1.08-Pad42)">
+      <node ref="DD1" pin="42" pinfunction="P1.08" pintype="bidirectional"/>
+    </net>
+    <net code="86" name="unconnected-(DD1-P1.09-Pad16)">
+      <node ref="DD1" pin="16" pinfunction="P1.09" pintype="bidirectional"/>
+    </net>
+    <net code="87" name="unconnected-(DD1-P1.11-Pad2)">
+      <node ref="DD1" pin="2" pinfunction="P1.11" pintype="bidirectional"/>
+    </net>
+    <net code="88" name="unconnected-(DD1-P1.12-Pad39)">
+      <node ref="DD1" pin="39" pinfunction="P1.12" pintype="bidirectional"/>
+    </net>
+    <net code="89" name="unconnected-(DD1-P1.14-Pad38)">
+      <node ref="DD1" pin="38" pinfunction="P1.14" pintype="bidirectional"/>
+    </net>
+    <net code="90" name="unconnected-(DD4-STOP-Pad6)">
+      <node ref="DD4" pin="6" pinfunction="STOP" pintype="bidirectional"/>
+    </net>
+    <net code="91" name="unconnected-(DD4-VSET-Pad5)">
+      <node ref="DD4" pin="5" pinfunction="VSET" pintype="bidirectional"/>
+    </net>
+    <net code="92" name="unconnected-(R2-Pad1)">
+      <node ref="R2" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="93" name="unconnected-(R2-Pad2)">
+      <node ref="R2" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="94" name="unconnected-(R3-Pad1)">
+      <node ref="R3" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="95" name="unconnected-(R3-Pad2)">
+      <node ref="R3" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="96" name="unconnected-(R4-Pad1)">
+      <node ref="R4" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="97" name="unconnected-(R4-Pad2)">
+      <node ref="R4" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="98" name="unconnected-(R5-Pad1)">
+      <node ref="R5" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="99" name="unconnected-(R5-Pad2)">
+      <node ref="R5" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="100" name="unconnected-(R6-Pad1)">
+      <node ref="R6" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="101" name="unconnected-(R6-Pad2)">
+      <node ref="R6" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="102" name="unconnected-(R7-Pad1)">
+      <node ref="R7" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="103" name="unconnected-(R7-Pad2)">
+      <node ref="R7" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="104" name="unconnected-(R8-Pad1)">
+      <node ref="R8" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="105" name="unconnected-(R8-Pad2)">
+      <node ref="R8" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="106" name="unconnected-(R9-Pad1)">
+      <node ref="R9" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="107" name="unconnected-(R9-Pad2)">
+      <node ref="R9" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="108" name="unconnected-(R11-Pad1)">
+      <node ref="R11" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="109" name="unconnected-(R11-Pad2)">
+      <node ref="R11" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="110" name="unconnected-(R12-Pad1)">
+      <node ref="R12" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="111" name="unconnected-(R12-Pad2)">
+      <node ref="R12" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="112" name="unconnected-(R13-Pad1)">
+      <node ref="R13" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="113" name="unconnected-(R16-Pad1)">
+      <node ref="R16" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="114" name="unconnected-(R16-Pad2)">
+      <node ref="R16" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="115" name="unconnected-(R17-Pad1)">
+      <node ref="R17" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="116" name="unconnected-(R17-Pad2)">
+      <node ref="R17" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="117" name="unconnected-(R19-Pad1)">
+      <node ref="R19" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="118" name="unconnected-(R19-Pad2)">
+      <node ref="R19" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="119" name="unconnected-(R21-Pad1)">
+      <node ref="R21" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="120" name="unconnected-(R21-Pad2)">
+      <node ref="R21" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="121" name="unconnected-(R22-Pad1)">
+      <node ref="R22" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="122" name="unconnected-(R22-Pad2)">
+      <node ref="R22" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="123" name="unconnected-(R31-Pad1)">
+      <node ref="R31" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="124" name="unconnected-(R31-Pad2)">
+      <node ref="R31" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="125" name="unconnected-(VD1-PadA)">
+      <node ref="VD1" pin="A" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="126" name="unconnected-(VD7-PadA)">
+      <node ref="VD7" pin="A" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="127" name="unconnected-(VD8-PadA)">
+      <node ref="VD8" pin="A" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="128" name="unconnected-(VD9-PadA)">
+      <node ref="VD9" pin="A" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="129" name="unconnected-(VT3-G-Pad1)">
+      <node ref="VT3" pin="1" pinfunction="G" pintype="bidirectional"/>
+    </net>
+    <net code="130" name="unconnected-(XS4-Pad2)">
+      <node ref="XS4" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="131" name="unconnected-(XS5-Pad2)">
+      <node ref="XS5" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="132" name="unconnected-(XS7-CC1-PadA5)">
+      <node ref="XS7" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+    </net>
+    <net code="133" name="unconnected-(XS7-CC2-PadB5)">
+      <node ref="XS7" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

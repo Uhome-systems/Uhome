@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TWV-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/TWV-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "TWV_Library")(type "KiCad")(uri "${KIPRJMOD}/TWV_Library.kicad_sym")(options "")(descr ""))
+)

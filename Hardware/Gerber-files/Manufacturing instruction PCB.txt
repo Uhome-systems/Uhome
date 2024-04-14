@@ -1,0 +1,35 @@
+	*** PCB Specification ***
+Layers --------------------------------| 2		|
+Material ------------------------------| FR4		|
+Dimensions ----------------------------|   	|
+PCB Qt --------------------------------| 		|
+PCB Thickness -------------------------| 1  mm  	|
+PCB Color(Mask) -----------------------| Green		|
+Surface Finish ------------------------| HASL		|
+Copper Weight(thickness) --------------| 1 oz		|
+Silk ----------------------------------| White		|
+Half-cut / Castellated Holes ----------| NO		|
+Blind Vias ----------------------------| NO		|
+Impedance Control ---------------------| NO		|
+
+Layers description:
+All layer names consist of two parts, those parts separated by symbols "_PCB_". First part of file name is the name of layer.Second part of file name is the name of PCB
+For example: 1_Top Layer_PCB_Prototype x.x
+
+1_Top Layer_PCB_name - top cooper layer 
+2_Silk Top_PCB_name - silkscreen(overlay) top layer
+3_Solder Mask Top_PCB_name - top solder mask layer
+4_Solder Paste Top_PCB_name - solder past for SMD component on top layer
+5_Top Assembly Drawing_name - assembly drawing of top layer with name of components and their value 
+
+6_Bottom Layer_PCB_name - bottom cooper layer
+7_Silk Bottom_PCB_name - silkscreen(overlay) bottom layer
+8_Solder Mask Bottom_PCB_name - bottom solder mask layer
+9_Solder Paste Bottom_PCB_name - solder past for SMD component on bottom layer
+10_Bottom Assembly Drawing_PCB_name - assembly drawing of bottom layer with name of components and their value
+
+11_NC Drill_PCB_name - layer with location of round holes
+12_Slot drills_PCB_name - layer with location of not round holes
+
+13_Board Dimensions_PCB_name - layer with mechanical dimensions of board
+14_Dimensions drawings_PCB_name - layer with dimensions
